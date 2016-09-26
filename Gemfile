@@ -33,6 +33,10 @@ gem 'jbuilder', '~> 2.5'
 #Materialize is a CSS framework based around Google's Material Design principles. Minimalist aesthetic, sharp, stand out in a subtle way.
 gem 'materialize-sass'
 
+#Ruby-based OCR (optical character recognition) gem
+
+gem 'tesseract-ocr'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
