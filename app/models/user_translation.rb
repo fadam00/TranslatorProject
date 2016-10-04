@@ -1,0 +1,3 @@
+class UserTranslation < ApplicationRecord
+
+end

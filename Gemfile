@@ -24,8 +24,18 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
+
+#Very simple Roles library without any authorization enforcement supporting scope on resource object.
+gem 'rolify'
+
+#CanCanCan is an authorization library for Ruby on Rails which restricts what resources a given user is allowed to access. 
+gem 'cancancan'
+
+#Devise is a flexible authentication solution for Rails based on Warden.
+gem 'devise'
+
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -34,9 +44,16 @@ gem 'jbuilder', '~> 2.5'
 gem 'materialize-sass'
 
 #Ruby-based OCR (optical character recognition) gem
+#gem 'tesseract-ocr'
 
-gem 'tesseract-ocr'
+#Text progress bar for Terminal
+gem 'ruby-progressbar'
 
+#Paperclip is a easy-to-use Rails uploader
+gem 'paperclip'
+
+#SimpleForm is a form-builder
+gem 'simple_form'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
